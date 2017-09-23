@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/backg"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context="com.salman.getgithubofgeek.Activity.Activity.Activites.MainActivity">
+
+
+    <TextView
+        android:id="@+id/introText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:text="Get Github\n of Geeks"
+        android:textColor="#a6a8a3"
+        android:textSize="40dp" />
+
+    <LinearLayout
+        android:layout_width="300dp"
+        android:layout_height="200dp"
+        android:gravity="center"
+        android:orientation="vertical">
+
+
+        <EditText
+            android:id="@+id/gitHubUserName"
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:background="@null"
+            android:drawableLeft="@drawable/user_two"
+            android:gravity="center"
+            android:hint="Enter Username"
+            android:textColor="#ffff"
+            android:textColorHint="#a6a8a3" />
+
+        <Button
+            android:id="@+id/getInfoButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@null"
+            android:text="Get"
+            android:textColor="#a6a8a3" />
+
+    </LinearLayout>
+
+</LinearLayout>
